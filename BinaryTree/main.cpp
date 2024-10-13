@@ -251,7 +251,7 @@ using std::endl;
 			updateHeight(root->pLeft);
 			updateHeight(root);
 		}
-
+		//https://www.programiz.com/dsa/balanced-binary-tree
 		void balance(Element* root)
 		{
 			int balance = getBalance(root);
