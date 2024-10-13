@@ -4,8 +4,7 @@ using std::cout;
 using std::endl;
 
 #define tab '\t'
-void main()
-{
+
 	class Tree
 	{
 		class Element
@@ -308,7 +307,8 @@ void main()
 			printTree(root->pLeft, space);
 		}
 	};
-
+	void main()
+	{
 	setlocale(LC_ALL, "");
 
 	int n;
